@@ -1,2 +1,0 @@
-# CamiTech
-## Retailer Web App
