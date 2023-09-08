@@ -24,6 +24,32 @@ body {
   color: #fff;
 }
 
+.app {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+.th {
+  top: 50%;
+}
+
+.top-half-screen {
+  top: 50vh;
+}
+
+.top-40-screen {
+  top: 40vh;
+}
+
+.top-45-screen {
+  top: 45vh;
+}
+
+.lh {
+  left: 50%;
+}
+
 .ttf {
   transform: translate(-50%);
 }
