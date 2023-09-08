@@ -11,3 +11,136 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts --> */
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bowlby+One+SC&family=Caveat&family=Caveat+Brush&family=Satisfy&display=swap');
+
+body {
+  background-color: #182D4A;
+  color: #fff;
+}
+
+.app {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+.th {
+  top: 50%;
+}
+
+.top-half-screen {
+  top: 50vh;
+}
+
+.top-40-screen {
+  top: 40vh;
+}
+
+.top-45-screen {
+  top: 45vh;
+}
+
+.lh {
+  left: 50%;
+}
+
+.ttf {
+  transform: translate(-50%);
+}
+
+.ttzf {
+  transform: translate(0, -50%);
+}
+
+.ttff {
+  transform: translate(-50%, -50%);
+}
+
+.t-40percent {
+  top: 40%;
+}
+
+.t-100px {
+  top: 100px;
+}
+
+.w-1kpx {
+  width: 1000px;
+}
+
+.h-180px {
+  height: 180px;
+}
+
+.h-270px {
+  height: 270px;
+}
+
+.w-240px {
+  width: 240px;
+}
+
+.w-360px {
+  width: 360px;
+}
+
+.mx--10px {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.h-60px {
+  height: 60px;
+}
+
+.h-600px {
+  height: 600px;
+}
+
+.h-700px {
+  height: 700px;
+}
+
+.w-70per {
+  width: 70%;
+}
+
+.w-60per {
+  width: 60%;
+}
+
+.w-90per {
+  width: 90%;
+}
+
+.transition-0p1 {
+  transition: 0.1s;
+}
+
+/* Scroll Bars */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1A2734;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #303B47;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
