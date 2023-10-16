@@ -1,2 +1,2 @@
 # CamiTech
-## Retailer Web App
+## Project showcase site
